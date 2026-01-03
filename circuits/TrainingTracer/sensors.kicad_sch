@@ -5,7 +5,7 @@
 	(uuid "14d2180d-c0e8-485a-a0f8-5fb53e0bbe73")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 5.08 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,10 +74,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -6.35)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -122,50 +122,6 @@
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -239,78 +195,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,11 +1538,11 @@
 		(uuid "fcb47d26-4be5-4911-8d7b-6d7f0026d490")
 	)
 	(no_connect
-		(at 124.46 100.33)
+		(at 127 100.33)
 		(uuid "081b873d-59d7-499e-9b7e-0fd386da4731")
 	)
 	(no_connect
-		(at 124.46 105.41)
+		(at 127 105.41)
 		(uuid "956d2523-1be2-4c07-9c3e-598bb4998414")
 	)
 	(wire
@@ -2093,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 101.6 95.25)
+			(xy 99.06 93.98) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 142.24 107.95)
+			(xy 125.73 107.95) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 100.33) (xy 106.68 100.33)
+			(xy 104.14 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 106.68 100.33)
+			(xy 104.14 91.44) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 102.87) (xy 104.14 102.87)
+			(xy 101.6 102.87) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 124.46 100.33)
+			(xy 125.73 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 104.14 93.98)
+			(xy 101.6 102.87) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 110.49 107.95)
+			(xy 104.14 107.95) (xy 106.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 124.46 105.41)
+			(xy 125.73 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 123.19 102.87)
+			(xy 129.54 102.87) (xy 125.73 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 110.49 105.41)
+			(xy 104.14 105.41) (xy 106.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 101.6 93.98)
+			(xy 101.6 93.98) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3543,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 106.68 107.95 180)
+		(at 104.14 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3669,7 +3553,7 @@
 		)
 		(uuid "98adf7e7-063c-4b07-8854-6b5b56fe47f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1872 107.95 0)
+			(at 97.6472 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3609,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 106.68 105.41 180)
+		(at 104.14 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3735,7 +3619,7 @@
 		)
 		(uuid "fbcd5fff-4374-42bc-8f21-240cdfd18f12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0154 105.41 0)
+			(at 96.4754 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d5771b5-4d00-4716-92bb-5ee050e9297a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 114.3 29.21 0)
 			(effects
 				(font
@@ -3879,7 +3763,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "33"
 			(at 142.24 45.7199 0)
 			(effects
 				(font
@@ -3913,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 139.7 44.45 0)
 			(effects
 				(font
@@ -3974,7 +3858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 63.5 66.0399 0)
 			(effects
 				(font
@@ -3983,7 +3867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -4035,7 +3919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14fe016c-fc09-48e2-a6a0-7d85ee167a6b")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -4085,7 +3969,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4101,7 +3985,7 @@
 		(dnp no)
 		(uuid "172c0394-e16e-4efd-a53c-d5af4fe5b9b2")
 		(property "Reference" "R5"
-			(at 24.638 99.568 0)
+			(at 32.258 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,8 +3993,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 24.384 101.6 0)
+		(property "Value" "75"
+			(at 32.258 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 38.1 100.33 0)
 			(effects
 				(font
@@ -4170,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193702ee-15b3-414e-9537-59561471a520")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 162.56 76.2 0)
 			(effects
 				(font
@@ -4220,7 +4104,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -4326,7 +4210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -4378,7 +4262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dda053f-5591-404d-9c9d-a0e41dbc2d31")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -4428,7 +4312,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31769748-329d-44ac-ada8-a4e8243ea85c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -4494,7 +4378,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce5090b-59e3-4a61-804e-0d1d98a824c7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -4560,7 +4444,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4659,7 +4543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 66.04 116.8399 0)
 			(effects
 				(font
@@ -4668,7 +4552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -4720,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a08f64-f10e-4c38-a291-90df1e2263bc")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 190.5 99.06 0)
 			(effects
 				(font
@@ -4770,7 +4654,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "486d79f6-45a2-4cbb-a3be-670b4e7bd54d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -4835,7 +4719,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4851,7 +4735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad9c22f-befb-4f4f-8245-1e12856079e6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 38.1 99.06 0)
 			(effects
 				(font
@@ -4901,7 +4785,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d9e25c3-77d4-4a99-b101-7c99442696bc")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 88.9 29.21 0)
 			(effects
 				(font
@@ -4967,7 +4851,82 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR028")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 111.76 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57215c6a-3bd7-4fa8-a605-979ee18ff50f")
+		(property "Reference" "J11"
+			(at 109.474 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMX055/BNO055-1"
+			(at 94.234 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f6b3ce2-d27b-4df6-815b-e5221e4f2440")
+		)
+		(pin "1"
+			(uuid "cc9fc0ea-8013-4810-b5d8-86c6e96c23df")
+		)
+		(pin "3"
+			(uuid "d00b4e20-64ec-469b-b788-8684079aca3d")
+		)
+		(pin "4"
+			(uuid "6c468949-a4eb-4092-9189-4dfc76217ebd")
+		)
+		(instances
+			(project ""
+				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4975,15 +4934,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 106.68 91.44 0)
+		(at 104.14 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5e4009f1-7871-4dc0-a52b-6110f5522d71")
-		(property "Reference" "#PWR031"
-			(at 106.68 95.25 0)
+		(property "Reference" "#PWR035"
+			(at 104.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4951,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 109.728 88.138 0)
+			(at 107.188 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +4968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +4977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 106.68 91.44 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +4991,7 @@
 		(instances
 			(project ""
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5047,7 +5006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fd6351a-9c25-4936-9fa2-bc8b011c0ad4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 137.16 100.33 0)
 			(effects
 				(font
@@ -5097,7 +5056,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad2e185-761c-4d5f-b21e-34daf2303571")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR041"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -5163,7 +5122,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR037")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 165.1 66.0399 0)
 			(effects
 				(font
@@ -5197,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -5397,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6a6ffe-f8f2-4661-868b-a6a97458c9f6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR040"
 			(at 139.7 29.21 0)
 			(effects
 				(font
@@ -5447,93 +5406,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 115.57 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "813dd296-253b-4649-959d-88643a430d64")
-		(property "Reference" "J2"
-			(at 116.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMX055/BNO055"
-			(at 116.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d074887d-a0a1-4baf-b2b3-78107630e51b")
-		)
-		(pin "6"
-			(uuid "72b5fedb-c4d3-42e3-8fe4-c0dded5f3638")
-		)
-		(pin "2"
-			(uuid "7daf833b-527f-42d6-9696-72f288477118")
-		)
-		(pin "4"
-			(uuid "3bd5284c-d215-470e-9ef0-91b21922aae0")
-		)
-		(pin "8"
-			(uuid "6f08f292-204c-4df9-9501-c8bf1f0366ab")
-		)
-		(pin "5"
-			(uuid "009b3bbc-e3dc-45eb-a6b4-bd9dee0971f3")
-		)
-		(pin "3"
-			(uuid "950c6508-3281-4383-a4f7-ee80ee4e266d")
-		)
-		(pin "7"
-			(uuid "d572fefa-c823-4282-ae8d-3e28eb55e84d")
-		)
-		(instances
-			(project ""
-				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "J2")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5548,7 +5421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9470d97b-ca34-4e6d-8448-d9743a4f52ba")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -5598,7 +5471,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 215.9 66.0399 0)
 			(effects
 				(font
@@ -5632,7 +5505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -5684,7 +5557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c12e897-0df9-48ce-97e9-4a774ec7b100")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 38.1 29.21 0)
 			(effects
 				(font
@@ -5734,7 +5607,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e39924a-93ad-44e2-8e3a-f9beafa73554")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 38.1 127 0)
 			(effects
 				(font
@@ -5800,7 +5673,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5899,7 +5772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 218.44 116.8399 0)
 			(effects
 				(font
@@ -5908,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 215.9 115.57 0)
 			(effects
 				(font
@@ -5951,6 +5824,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 120.65 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab541392-14ec-433a-9a15-79d796aaf3bb")
+		(property "Reference" "J12"
+			(at 120.65 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMX055/BNO055-2"
+			(at 129.032 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74825ea9-80e7-4a62-87fc-99fadec561f4")
+		)
+		(pin "1"
+			(uuid "cdb4425b-8390-4a70-8fb9-ae0c44ed6f8d")
+		)
+		(pin "3"
+			(uuid "1e508fe2-4fc1-4c5b-bace-c8997e0ef299")
+		)
+		(pin "4"
+			(uuid "946f25c2-1700-46e8-9526-e6b05725e0f5")
+		)
+		(instances
+			(project "TrainingTracer"
+				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 190.5 100.33 0)
 		(unit 1)
@@ -5960,7 +5906,7 @@
 		(dnp no)
 		(uuid "bab5b52d-0563-4951-b386-ece47d36b978")
 		(property "Reference" "R13"
-			(at 177.038 99.568 0)
+			(at 182.626 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,8 +5914,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 176.784 101.6 0)
+		(property "Value" "75"
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -6029,7 +5975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be741b58-957d-4764-b128-b9adee85cfb9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -6079,7 +6025,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6087,15 +6033,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 95.25 0)
+		(at 99.06 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c367ffb1-aa6a-4bfe-90f8-bb26f89797a8")
-		(property "Reference" "#PWR030"
-			(at 101.6 101.6 0)
+		(property "Reference" "#PWR034"
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.044 97.79 0)
+			(at 95.504 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 95.25 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 95.25 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 95.25 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6090,7 @@
 		(instances
 			(project ""
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6160,7 +6106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4317a93-2e29-4b92-ac22-021bfda7b700")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 38.1 69.85 0)
 			(effects
 				(font
@@ -6210,7 +6156,7 @@
 		(instances
 			(project ""
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6309,7 +6255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "33"
 			(at 40.64 45.7199 0)
 			(effects
 				(font
@@ -6318,7 +6264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -6370,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82d3b0f-22b3-4f47-a97d-df9391c0cfbb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -6420,7 +6366,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6436,7 +6382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb529af-bbe3-4a64-b5d4-8027a26c8d54")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 63.5 29.21 0)
 			(effects
 				(font
@@ -6486,7 +6432,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "33"
 			(at 193.04 45.7199 0)
 			(effects
 				(font
@@ -6520,7 +6466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -6572,7 +6518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d809ed50-e327-4f22-93f1-f0239712cedd")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 63.5 99.06 0)
 			(effects
 				(font
@@ -6622,7 +6568,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6712,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dadbf934-7324-44ca-a273-05d4b850e4be")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 60.96 76.2 0)
 			(effects
 				(font
@@ -6762,7 +6708,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6778,7 +6724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df55d31c-042d-4a96-8c9a-d64a258dfef1")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -6828,7 +6774,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "33"
 			(at 91.44 45.7199 0)
 			(effects
 				(font
@@ -6862,7 +6808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -6914,7 +6860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed20a704-7e37-415a-b1cc-35e8a26db703")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -6964,7 +6910,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6980,7 +6926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee698374-b13e-4118-bdb0-741e73316287")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -7030,7 +6976,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7129,7 +7075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "1k"
 			(at 114.3 66.0399 0)
 			(effects
 				(font
@@ -7138,7 +7084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 111.76 64.77 0)
 			(effects
 				(font
@@ -7338,7 +7284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd83a8c0-51a0-4331-b03d-6ce4f7596521")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 165.1 29.21 0)
 			(effects
 				(font
@@ -7388,7 +7334,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe90842e-fbf7-4456-845e-96906c548578")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 190.5 29.21 0)
 			(effects
 				(font
@@ -7454,7 +7400,7 @@
 		(instances
 			(project "TrainingTracer"
 				(path "/914faf3b-320c-40a9-bc45-7ad88109862b/0d2cdeba-b36a-409a-a084-dbfcb0fa9913"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

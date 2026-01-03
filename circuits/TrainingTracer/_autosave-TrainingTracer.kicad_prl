@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -50,17 +50,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "TrainingTracer.kicad_prl",
+    "filename": "_autosave-TrainingTracer.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -89,16 +88,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      89,
-      70,
-      89,
-      89,
-      89,
-      53,
-      89,
-      89
+      186,
+      171,
+      112,
+      85,
+      112,
+      112,
+      112,
+      63,
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
