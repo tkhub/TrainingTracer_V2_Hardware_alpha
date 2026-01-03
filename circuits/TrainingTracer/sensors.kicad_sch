@@ -1453,6 +1453,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 90.17 77.47)
+		(end 160.02 116.84)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fdff95bc-c532-4753-a573-ecd04263fa91)
+	)
+	(text "改造箇所3：ディスコンセンサの置き換え対応(BMX055→BNO055)"
+		(exclude_from_sim no)
+		(at 120.396 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab4007b8-ce88-4405-ad41-0a4dc983482b")
+	)
 	(junction
 		(at 111.76 59.69)
 		(diameter 0)
