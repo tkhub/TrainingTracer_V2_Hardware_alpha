@@ -751,6 +751,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 158.75 85.09)
+		(end 170.18 95.25)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6af45971-97f6-4659-bf0f-e77fdcaeca03)
+	)
+	(text "改良箇所4：ラベルの命名をソフト上の命名と統一"
+		(exclude_from_sim no)
+		(at 190.754 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16a19fe5-fa99-4550-a551-9af3e8acce50")
+	)
 	(junction
 		(at 153.67 101.6)
 		(diameter 0)
